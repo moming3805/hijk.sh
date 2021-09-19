@@ -9,7 +9,7 @@ centos_install_v2ray2.sh  #v2ray带伪装一键脚本
 ubuntu_install_v2ray2.sh  #v2ray带伪装一键脚本Ubuntu版
 ```
 ```
-v2ray.sh                  #V2ray多合一脚本,支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合
+v2ray.sh                  #V2ray多合一脚本,支持VMESS+websocket+TLS+Nginx,VLESS+TCP+XTLS,VLESS+TCP+TLS等组合
 xray.sh                   #Xray一键脚本
 ```
 ```
