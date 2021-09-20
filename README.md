@@ -27,16 +27,10 @@ wordpress_trojan.sh       #WordPress一键脚本，trojan伪装建站
 ```
 ```
 #阿里云卸载云盾/安骑士
-wget http://update.aegis.aliyun.com/download/uninstall.sh
-chmod +x uninstall.sh
-./uninstall.sh
-rm -rf uninstall.sh
-wget http://update.aegis.aliyun.com/download/quartz_uninstall.sh
-chmod +x quartz_uninstall.sh
-./quartz_uninstall.sh
-rm -rf quartz_uninstall.sh
+bash <(curl -sL http://update.aegis.aliyun.com/download/uninstall.sh)
+bash <(curl -sL http://update.aegis.aliyun.com/download/quartz_uninstall.sh)
 pkill aliyun-service
-rm -fr /etc/init.d/agentwatch /usr/sbin/aliyun-service
+rm -rf /etc/init.d/agentwatch /usr/sbin/aliyun-service
 rm -rf /usr/local/aegis*
 ```
 ```
